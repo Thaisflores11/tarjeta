@@ -1,59 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     display: flex;
-    height: 100vh;
+    
     align-items: center;
+    justify-content: center;
+    
   }
   
   .cajaexterior {
+    text-align: center;
+    overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
-    width: 70%;
-    height: 55%;
+    width: 50%;
+    height: 50%;
     padding: 0;
-    border-radius: 15px;
+    
+    justify-content: center;
+    
   }
   
   .cajaexterior picture {
-    width: 50%;
+    width: 155%;
   }
   
   .cajaexterior picture img {
     width: 100%;
     height: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
   }
   
   .cajainter1 {
-    width: 50%;
+    
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    
   }
   
   .cajainter1 h2 {
-    width: 70%;
+    width: 87%;
     font-size: 32px;
     font-weight: 700;
     line-height: normal;
-    padding: 30px;
-    padding-bottom: 10px;
-    text-align: justify;
-    padding-left: 72px;
+    padding: 35px;
+    justify-content: center;
+    
   }
   
   .cajainter1 p {
-    width: 75%;
-    padding-left: 75px;
-    padding-right: 15px;
-    margin: 0;
-    text-align: justify;
+    
+    padding: 30px;
+    width: 80%;
+    
+    
   }
   .estado {
     display: flex;
-    padding-top: 20px;
+    padding: 10px;
   }
   
   .pr1 {
-    padding-right: 25px;
-    padding-left: 75px;
+    padding-right: 15px;
+    padding-left: 35px;
   }
   
   .pr2 {

@@ -9,17 +9,27 @@
     --Slightly-transparent-white-: hsla(0, 0%, 100%, 0.6); 
     --Font-size: 15px;
   }
-  
-body{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--Very-dark-blue);
   }
   .cajaexterior {
-    width: 90%;
-    margin: 30px auto;
-    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    border-radius: 5px;
+    overflow: hidden;
     background-color: var(--Dark-desaturated-blue);
   }
   .cajaexterior picture img {
@@ -29,38 +39,39 @@ body{
       opacity(5) hue-rotate(235deg);
     border-radius: 10px;
   }
-  
   .cajainter1 h2 {
     font-family: var(--font-family-IN);
     text-align: center;
+    padding: 20px;
     font-size: 28px;
     color: var(--White);
   }
-  
-  .cajainter1 d {
+  .cajainter1 d{
     color: var(--Soft-violet);
   }
-  
   .cajainter1 p {
+    padding: 20px;
     letter-spacing: 2px;
     text-align: center;
     font-family: var(--font-family-IN);
     color: var(--Slightly-transparent-white);
     font-size: 15px;
     padding-bottom: 15px;
-  }
-  
+  } 
   .estado {
     display: block;
     text-align: center;
     color: var(--White);
+    margin-bottom: 20px;
+    padding: 20px;
   }
-  
-  .estado span:nth-child(1){
+  .estado h2:nth-child(1){
     font-size: 19px;
+    padding: 10px;
     font-family: var(--font-family-LEX);
   }
   .estado span:nth-child(2){
+    padding: 10px;
     font-size: 12px;
     font-family: var(--font-family-IN);
   }
